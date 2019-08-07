@@ -1,0 +1,9 @@
+<h1>Flats#show</h1>
+<%= link_to "edit", edit_flat_path(@flat) %>
+<p><%= @flat.name %></p>
+<p><%= @flat.description %></p>
+<p><%= @flat.address %></p>
+<p><i class="fas fa-money-bill-wave"></i> <%= @flat.price_per_night %></p>
+<p><i class="fas fa-users"></i> <%= @flat.number_of_guests %></p>
+
+<%= link_to "back to list", flats_path %>
